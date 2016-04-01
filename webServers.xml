@@ -1,0 +1,19 @@
+<application>
+  <component name="WebServers">
+    <sftpAdvancedGlobalOptions>
+      <SftpAdvancedOptions hashKnownHosts="false">
+        <option name="hashHost" value="false" />
+      </SftpAdvancedOptions>
+    </sftpAdvancedGlobalOptions>
+    <option name="servers">
+      <webServer id="4351e848-0b17-4b1d-986a-23e8e0077a69" name="dev.koakh.com" url="http://dev.koakh.com/frameworks/laravel/laravelcrud/public">
+        <fileTransfer host="koakh.com" port="22" rootFolder="/data/srv/www/vhosts/koakh.com/subdomains/dev/httpdocs/frameworks/laravel/laravelcrud/" accessType="SFTP" username="mario">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
