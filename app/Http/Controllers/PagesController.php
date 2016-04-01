@@ -10,7 +10,6 @@ class PagesController extends Controller
 {
   public function home()
   {
-    $var = 'Welcome home koakh. go to bed!';
-    return $var;
+    return 'Welcome';
   }
 }
