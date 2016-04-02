@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PhpUnit">
-    <phpunit_settings>
-      <PhpUnitSettings />
-    </phpunit_settings>
+  <component name="PhpProjectServersManager">
+    <servers>
+      <server host="dev.koakh.com" id="def3d060-c25f-4ef3-bf31-df84a62a5b8f" name="dev.koakh.com" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/data/srv/www/vhosts/koakh.com/subdomains/dev/httpdocs/frameworks/laravel/laravelcrud" />
+        </path_mappings>
+      </server>
+    </servers>
   </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
 </project>

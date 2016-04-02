@@ -11,7 +11,6 @@
 |
 */
 
-Route::get('/', [
-    'as' => 'home',
-    'uses' => 'PagesController@home'
-]);
+Route::get('/', function () {
+    return view('welcome');
+});
